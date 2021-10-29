@@ -1,0 +1,31 @@
+
+.search-bar-wrapper {
+  background-color: #D2E5E9;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.search-bar-title {
+  flex: auto;
+  width: 15%;
+}
+
+.search-bar-input {
+  flex: auto;
+  width: 85%;
+}
+
+@media (max-width: 1250px) {
+  .search-bar-title {
+    flex: auto;
+    width: 100%;
+  }
+  
+  .search-bar-input {
+    flex: auto;
+    width: 100%;
+  }
+}

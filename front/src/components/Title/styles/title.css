@@ -1,0 +1,13 @@
+.title-wrapper {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.title-wrapper h1 {
+  margin:0;
+  font-size: 30px;
+  line-height: 37px;
+  font-style: normal;
+  font-weight: bold
+}

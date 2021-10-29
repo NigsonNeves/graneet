@@ -1,0 +1,12 @@
+.home-wrapper {
+  padding: 3rem
+}
+
+.home-list {
+  margin-top: 3rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 3rem;
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+.list-element-wrapper {
+  width: 100%;
+  padding: 0.5rem 2rem;
+}
+
+.list-element-wrapper p {
+  color: white;
+  font-weight: bold;
+}
+
+.list-element-flex {
+  display: flex;
+}
+
+.list-element-flex-content {
+  flex: 1;
+}
+
+#postalCode {
+  color: #8C8F9A;
+}

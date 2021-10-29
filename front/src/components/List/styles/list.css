@@ -1,0 +1,47 @@
+.list-wrapper {
+  width: 100%;
+  background-color: #D2E5E9;
+  border-radius: 1rem;
+  padding: 2rem;
+  height: 853px;
+}
+
+.list {
+  margin-top: 1rem;
+}
+
+.list-scroll {
+  margin: 3rem 0;
+  overflow-y: auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 300px;
+  gap: 1rem;
+}
+
+.list-scroll::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.list-scroll::-webkit-scrollbar-track-piece  {
+  background-color: inherit;
+}
+
+.list-scroll-element {
+  width: 100%;
+  flex: auto;
+  text-align: center;
+}
+
+@media (min-width: 1250px) {
+  .list-wrapper {
+    flex: 1;
+  }
+
+  .list-scroll-element {
+    width: 40%;
+    text-align: start;
+  }
+}

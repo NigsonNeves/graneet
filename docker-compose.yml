@@ -1,0 +1,23 @@
+version: "3"
+services:
+  front:
+    container_name: front
+    restart: always
+    build: ./front
+    stdin_open: true
+    ports:
+      - "3000:3000"
+
+  api-back:
+    container_name: back
+    restart: always
+    build: ./back
+    ports:
+      - "4000:4000"
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - "27017:27017"

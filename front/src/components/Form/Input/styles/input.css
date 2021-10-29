@@ -1,0 +1,28 @@
+
+.input {
+  width:100%;
+  padding: 1rem;
+}
+
+.input input {
+  width: 100%;
+  border-radius: 10px;
+  border: 0;
+  padding: 0 2rem;
+  height: 61px;
+  background-color: #F0FCFF;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.input input::placeholder  {
+  color: #DCDCDC;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.input input:focus  {
+  outline: none;
+}
